@@ -1,0 +1,29 @@
+.header-container {
+  margin: 2rem 0 3.5rem;
+  text-align: left;
+}
+
+.header-container h2 {
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.header-container label {
+  margin: 0;
+  font-size: initial;
+  font-weight: normal;
+}
+
+@media (max-width: 720px ) {
+  .header-container {
+    margin: 2rem 0 2.5rem;
+  }
+
+  .header-container h2 {
+    font-size: 0.9rem;
+  }
+
+  .header-container label {
+    font-size: 0.9rem;
+  }
+}

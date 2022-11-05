@@ -1,0 +1,20 @@
+.white-container {
+  padding: 1rem;
+  min-height: 100%;
+  width: 57%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  border-radius: 1.5rem;
+}
+
+.white-container ul {
+  padding: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 720px ) {
+  .white-container {
+    margin-bottom: 0.7rem;
+    width: 100%;
+    padding: 0;
+  }
+}
